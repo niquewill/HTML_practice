@@ -8,33 +8,32 @@
 </head>
 <body>
     <h1>Register</h1>
-        <div>
-            <form>
+        <form>
+            <div>
                 <label for="firstName">First Name:</label>        
-                <input id="firstName" type="text" placeholder="John" required>
+                    <input id="firstName" type="text" placeholder="John" required />
 
                 <label for="lastName">Last Name:</label>
-                <input id="password"  type"password" placeholder="Smith" required>
-
-            </form>
+                    <input id="password"  type"password" placeholder="Smith" required />
+            </div>
+            <div>
                 <label for="genderOption">Male</label>
-                <input type="radio" id="male" name="sex" value="male" checked>
+                    <input type="radio" id="male" name="sex" value="male" checked />
         
                 <label for="genderOption">Female</label>
-                <input type="radio" id="female" name="sex" value="female">
+                    <input type="radio" id="female" name="sex" value="female"/>
 
                 <label for="genderOption">Other</label>
-                <input type="radio" id="other" name="sex" value="other">
-            </form>
-            <form>
+                    <input type="radio" id="other" name="sex" value="other"/>
+            </div>
+            <div>
                 <label for="email">Email:</label>
-                <input id="email" type="email" placeholder="your email" minlength="5" maxlength="10" size="10" required>
+                    <input id="email" type="email" placeholder="your email" minlength="5" maxlength="10" size="10" required>
         
                 <label for="password">Password:</label>
-                <input id="password" type="password" placeholder="your password" required>
-            </form>
-            <form>
-                <label for=birthMonth>Birthday:</label>
+                    <input id="password" type="password" placeholder="your password" required>
+            </div>    
+                    <label for=birthMonth>Birthday:</label>
                     <select id="birthMonth" name="birthMonth">
                         <option value="">Month</option>
                         <option value="">January</option>
@@ -159,15 +158,14 @@
                         <option value=''>2018</option>
                         <option value=''>2019</option>
                     </select>
-            </form>
-            <form>
-                <span>
-                <input type="checkbox" id="agreement" name="agree value="note" required>
-                    <label for="agreement">I agree to the terms and conditions</label>
-            </form>
-            <form>
-            <button type="submit">Submit</button>
-            </form>
-        </div>
+                </div>
+                <div>
+                    <input type="checkbox" id="agreement" name="agree value="note" required>
+                        <label for="agreement">I agree to the terms and conditions</label>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+        </form>
     </body>
 </html>
